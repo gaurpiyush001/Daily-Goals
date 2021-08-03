@@ -14,7 +14,7 @@ function App() {
 
     console.log(tasksObj);
     for (const taskKey in tasksObj) {
-      loadedTasks.push({ id: taskKey, text: data[taskKey].text });
+      loadedTasks.push({ id: taskKey, text: tasksObj[taskKey].text });
     }
 
     setTasks(loadedTasks);
@@ -56,7 +56,7 @@ function App() {
   // };
 
   useEffect(() => {
-    fetchTasks(null);
+    fetchTasks();
     console.log('fetch kinni');
   }, []);
 
