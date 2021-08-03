@@ -1,7 +1,7 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-This web app will help the user to track their expenses for a specific year, and helping the user to reach their daily goals of Savings
+
 ## Available Scripts
 
 In the project directory, you can run:
